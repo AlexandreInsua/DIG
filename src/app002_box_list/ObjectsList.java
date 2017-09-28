@@ -11,22 +11,39 @@ import javax.swing.JPanel;
 import javax.swing.JList;
 import javax.swing.JTextField;
 import javax.swing.BoxLayout;
+import javax.swing.DefaultListModel;
+
 import java.awt.GridLayout;
 import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
+import java.io.EOFException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 import javax.swing.JButton;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.SwingConstants;
+
+import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
+
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import javax.swing.JMenu;
 
 public class ObjectsList {
 
 	private JFrame frame;
 	private final JPanel panel = new JPanel();
-	private JTextField textField;
-	private JTextField textField_1;
+	private JTextField txtName;
+	private JTextField txtPrice;
 
 	/**
 	 * Launch the application.
@@ -48,6 +65,7 @@ public class ObjectsList {
 	 * Create the application.
 	 */
 	public ObjectsList() {
+		panel.setLayout(new BorderLayout(0, 0));
 		initialize();
 	}
 
@@ -56,73 +74,137 @@ public class ObjectsList {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 521, 314);
+		frame.setBounds(100, 100, 375, 316);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(new BorderLayout(0, 0));
-		
+
 		JScrollPane scrollPane = new JScrollPane();
 		frame.getContentPane().add(scrollPane, BorderLayout.CENTER);
+
+		JList list = new JList();
+		scrollPane.setViewportView(list);
 		frame.getContentPane().add(panel, BorderLayout.WEST);
 		panel.setLayout(new GridLayout(5, 1, 0, 0));
-		
-		
+
 		JLabel lblNewLabel = new JLabel("Nome");
+		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		panel.add(lblNewLabel);
-		
-		textField = new JTextField();
-		panel.add(textField);
-		textField.setColumns(10);
-		
+
+		txtName = new JTextField();
+		panel.add(txtName);
+		txtName.setColumns(10);
+
 		JLabel lblNewLabel_1 = new JLabel("Prezo");
+		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
 		panel.add(lblNewLabel_1);
-		
-		textField_1 = new JTextField();
-		panel.add(textField_1);
-		textField_1.setColumns(10);
-		
+
+		txtPrice = new JTextField();
+		panel.add(txtPrice);
+		txtPrice.setColumns(10);
+
 		JButton btnNewButton = new JButton("Engadir");
+		btnNewButton.addMouseListener(new MouseAdapter() {
+
+			public void mouseClicked(MouseEvent arg0) {
+				DefaultListModel<Product> dlm = (DefaultListModel<Product>) Product.getModel;
+				String name = txtName.getText();
+				Float price = Float.parseFloat(txtPrice.getText());
+				Product p = new Product(name, price);
+				dlm.addElement(p);
+			}
+		});
 		panel.add(btnNewButton);
-		
+
 		JPanel panel_1 = new JPanel();
 		frame.getContentPane().add(panel_1, BorderLayout.NORTH);
-		
+
 		JMenuBar menuBar_1 = new JMenuBar();
 		panel_1.add(menuBar_1);
-		
-		JMenuItem mntmNewMenuItem_5 = new JMenuItem("New menu item");
-		menuBar_1.add(mntmNewMenuItem_5);
-		
-		JMenuItem mntmNewMenuItem_6 = new JMenuItem("New menu item");
-		menuBar_1.add(mntmNewMenuItem_6);
-		
-		JMenuItem mntmNewMenuItem = new JMenuItem("New menu item");
-		menuBar_1.add(mntmNewMenuItem);
-		
-		JMenuBar menuBar_2 = new JMenuBar();
-		panel_1.add(menuBar_2);
-		
-		JMenuItem mntmNewMenuItem_1 = new JMenuItem("New menu item");
-		menuBar_2.add(mntmNewMenuItem_1);
-		
-		JMenuItem mntmNewMenuItem_4 = new JMenuItem("New menu item");
-		menuBar_2.add(mntmNewMenuItem_4);
-		
-		JMenuItem mntmNewMenuItem_3 = new JMenuItem("New menu item");
-		menuBar_2.add(mntmNewMenuItem_3);
-		
-		JMenuItem mntmNewMenuItem_2 = new JMenuItem("New menu item");
-		menuBar_2.add(mntmNewMenuItem_2);
-		
-		JMenuBar menuBar = new JMenuBar();
-		panel_1.add(menuBar);
+
+		JMenuItem mntmExit = new JMenuItem("Sa\u00EDr");
+		menuBar_1.add(mntmExit);
+
+		JMenu mnNewMenu = new JMenu("Menu");
+		mnNewMenu.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				// Toma o modelo da lista
+				DefaultListModel<Product> dlm = (DefaultListModel<Product>) productList;
+				File f = new File("Datos.obj");
+				FileOutputStream fos;
+				ObjectOutputStream oos;
+				try {
+					fos = new FileOutputStream(f);
+					oos = new ObjectOutputStream(fos);
+
+					for (int i = 0; i < dlm.size(); i++) {
+						Product p = dlm.getElementAt(i);
+						oos.writeObject(p);
+					}
+				} catch (FileNotFoundException fne) {
+
+				} catch (IOException ioe) {
+
+				} finally {
+					fos.close();
+				}
+			}
+		});
+		mnNewMenu.setHorizontalAlignment(SwingConstants.LEFT);
+		menuBar_1.add(mnNewMenu);
+
+		JMenuItem mntmSave = new JMenuItem("Gardar");
+		mnNewMenu.add(mntmSave);
+
+		JMenuItem mntmClean = new JMenuItem("Limpar");
+		mnNewMenu.add(mntmClean);
+
+		JMenuItem mntmCleanSelected = new JMenuItem("Borrar seleccionado");
+		mnNewMenu.add(mntmCleanSelected);
+
+		JMenuItem mntmOpen = new JMenuItem("Abrir");
+		mntmOpen.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				File f = new File("datos.obj");
+				FileInputStream fis = null;
+				ObjectInputStream ois = null;
+				try {
+					fis = new FileInputStream(f);
+					ois = new ObjectInputStream(fis);
+					Product p = (Product) ois.readObject();
+					while (p != null) {
+						System.out.println(p.getName()); // prova
+						p = (Product) ois.readObject();
+					}
+
+				} catch (ClassNotFoundException cnf) {
+
+				} catch (EOFException eof) {
+
+				} catch (FileNotFoundException fnf) {
+
+				} catch (IOException ioe) {
+
+				} finally {
+					try {
+						fis.close();
+					} catch (IOException ioe) {
+
+					}
+				}
+
+			}
+		});
+		mnNewMenu.add(mntmOpen);
 	}
 
 }
 
-class Product implements Serializable{
+class Product implements Serializable {
 	private String name;
 	private Float price;
-	
+
 	public Product(String name, Float price) {
 		super();
 		this.name = name;
@@ -130,8 +212,9 @@ class Product implements Serializable{
 	}
 
 	public Product() {
-		
+
 	}
+
 	public String getName() {
 		return name;
 	}
@@ -147,7 +230,10 @@ class Product implements Serializable{
 	public void setPrice(Float price) {
 		this.price = price;
 	}
-	
-	
-	
+
+	@Override
+	public String toString() {
+		return "name:" + name + ":\t " + price + "€";
+	}
+
 }
