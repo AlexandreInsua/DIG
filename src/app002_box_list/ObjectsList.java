@@ -37,6 +37,9 @@ import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JMenu;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.ListSelectionModel;
 
 public class ObjectsList {
 
@@ -44,6 +47,7 @@ public class ObjectsList {
 	private final JPanel panel = new JPanel();
 	private JTextField txtName;
 	private JTextField txtPrice;
+	protected DefaultListModel<Product> productList;
 
 	/**
 	 * Launch the application.
@@ -82,9 +86,17 @@ public class ObjectsList {
 		frame.getContentPane().add(scrollPane, BorderLayout.CENTER);
 
 		JList list = new JList();
+		list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		list.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+			
+				
+			}
+		});
 		scrollPane.setViewportView(list);
 		frame.getContentPane().add(panel, BorderLayout.WEST);
-		panel.setLayout(new GridLayout(5, 1, 0, 0));
+		panel.setLayout(new GridLayout(6, 1, 0, 0));
 
 		JLabel lblNewLabel = new JLabel("Nome");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
@@ -103,6 +115,10 @@ public class ObjectsList {
 		txtPrice.setColumns(10);
 
 		JButton btnNewButton = new JButton("Engadir");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton.addMouseListener(new MouseAdapter() {
 
 			public void mouseClicked(MouseEvent arg0) {
@@ -111,9 +127,21 @@ public class ObjectsList {
 				Float price = Float.parseFloat(txtPrice.getText());
 				Product p = new Product(name, price);
 				dlm.addElement(p);
+				txtName.setText("");
+				txtPrice.setText("");
+				
+				
 			}
 		});
 		panel.add(btnNewButton);
+		
+		JButton btnModify = new JButton("Modificar");
+		btnModify.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+			}
+		});
+		panel.add(btnModify, BorderLayout.NORTH);
 
 		JPanel panel_1 = new JPanel();
 		frame.getContentPane().add(panel_1, BorderLayout.NORTH);
@@ -122,6 +150,11 @@ public class ObjectsList {
 		panel_1.add(menuBar_1);
 
 		JMenuItem mntmExit = new JMenuItem("Sa\u00EDr");
+		mntmExit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.exit(0);
+			}
+		});
 		menuBar_1.add(mntmExit);
 
 		JMenu mnNewMenu = new JMenu("Menu");
@@ -131,7 +164,7 @@ public class ObjectsList {
 				// Toma o modelo da lista
 				DefaultListModel<Product> dlm = (DefaultListModel<Product>) productList;
 				File f = new File("Datos.obj");
-				FileOutputStream fos;
+				FileOutputStream fos = null;
 				ObjectOutputStream oos;
 				try {
 					fos = new FileOutputStream(f);
@@ -146,7 +179,12 @@ public class ObjectsList {
 				} catch (IOException ioe) {
 
 				} finally {
-					fos.close();
+					try {
+						fos.close();
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
 				}
 			}
 		});
@@ -202,6 +240,7 @@ public class ObjectsList {
 }
 
 class Product implements Serializable {
+	protected static DefaultListModel<Product> getModel;
 	private String name;
 	private Float price;
 
