@@ -1,4 +1,4 @@
-package app002_box_list;
+package t02_box_list;
 
 import java.awt.EventQueue;
 

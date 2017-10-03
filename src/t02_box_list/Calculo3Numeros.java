@@ -1,4 +1,4 @@
-package app002_box_list;
+package t02_box_list;
 
 import java.awt.EventQueue;
 
@@ -112,7 +112,7 @@ public class Calculo3Numeros {
 		frame.getContentPane().add(lblNewLabel_2, gbc_lblNewLabel_2);
 
 		cbxOperation = new JComboBox();
-		cbxOperation.setModel(new DefaultComboBoxModel(new String[] { "Sumar", "Restar", "Multiplicar", "Dividir" }));
+		cbxOperation.setModel(new DefaultComboBoxModel<String>(new String[] { "Sumar", "Restar", "Multiplicar", "Dividir" }));
 		GridBagConstraints gbc_cbxOperation = new GridBagConstraints();
 		gbc_cbxOperation.insets = new Insets(0, 0, 5, 5);
 		gbc_cbxOperation.fill = GridBagConstraints.HORIZONTAL;
