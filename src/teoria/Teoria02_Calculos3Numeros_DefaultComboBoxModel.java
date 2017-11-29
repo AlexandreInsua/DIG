@@ -1,4 +1,4 @@
-package com.angel;
+package teoria;
 
 import java.awt.EventQueue;
 
