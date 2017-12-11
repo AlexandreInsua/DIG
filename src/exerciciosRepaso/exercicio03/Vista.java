@@ -1,5 +1,9 @@
 package exerciciosRepaso.exercicio03;
 
+/*
+ * Pide o nome e apelidos e a idade. Se é maior de idade mostra mensaxe de
+ * benvida, se non mostra que o permiso non foi concedido.
+ */
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -143,7 +147,7 @@ public class Vista {
 
 		String permissionGranted = "Benvido " + name + " " + surname;
 		String permissionoDenied = "Síntoo, " + name + " " + surname + " non tes idade suficiente.";
-		if (age > 18) {
+		if (age >= 18) {
 			label.setText(permissionGranted);
 			JOptionPane.showMessageDialog(null, permissionGranted);
 		} else {
