@@ -15,6 +15,9 @@ import javax.swing.SwingConstants;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 
+/*
+ * Dados 4 valores, elixe nun comboBox a operación que vai realizar (suma, resta, multiplicación, división) e mostra o resultado por pantalla.
+ */
 public class Vista {
 
 	private JFrame frmSumador;
@@ -23,7 +26,7 @@ public class Vista {
 	private JTextField textNum3;
 	private JTextField textNum4;
 	private JTextField textResultado;
-	
+
 	/**
 	 * Launch the application.
 	 */
@@ -144,9 +147,10 @@ public class Vista {
 				textResultado.setText("");
 			}
 		});
-		
+
 		JComboBox comboBox = new JComboBox();
-		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Seleccione operaci\u00F3n:", "Suma", "Resta", "Multiplicaci\u00F3n", "Divisi\u00F3n"}));
+		comboBox.setModel(new DefaultComboBoxModel(new String[] { "Seleccione operaci\u00F3n:", "Suma", "Resta",
+				"Multiplicaci\u00F3n", "Divisi\u00F3n" }));
 		comboBox.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
@@ -154,11 +158,11 @@ public class Vista {
 				float num2 = Float.parseFloat(textNum2.getText());
 				float num3 = Float.parseFloat(textNum3.getText());
 				float num4 = Float.parseFloat(textNum4.getText());
-				
+
 				int option = comboBox.getSelectedIndex();
-				
-				textResultado.setText(calcularNumeros(option, num1, num2, num3, num4)+" ");
-				
+
+				textResultado.setText(calcularNumeros(option, num1, num2, num3, num4) + " ");
+
 			}
 		});
 		GridBagConstraints gbc_comboBox = new GridBagConstraints();
