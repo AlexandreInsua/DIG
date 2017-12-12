@@ -1,0 +1,9 @@
+JComboBox
+
+
+1.- Crea un enumerado (t03)
+2.- Declárase un JCombox cbxOperation;
+3.- Establécese un dlm de string co enumerado
+	cbxOperation.setModel(new DefaultComboBoxModel<String>(new String[] { "Sumar", "Restar", "Multiplicar", "Dividir" }));
+4.- No listener vai un if coas opcións
+		if (cbxOperation.getSelectedIndex() == OPERATIONS.SUMAR.value) {...}

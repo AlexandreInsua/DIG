@@ -1,0 +1,124 @@
+LOG: INFO dic 12/12/2017 21:15 Aplicación iniciada.
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 842
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 706
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 545
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 298
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 537
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 780
+LOG: SEVERE dic 12/12/2017 21:15 Exceso de peticiones de número aleatorio.
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 338
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 915
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 692
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 865
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 668
+LOG: WARNING dic 12/12/2017 21:15 Peligro el numero no esta entre 0 y 100: 439
+LOG: INFO dic 12/12/2017 21:17 Aplicación iniciada.
+LOG: INFO dic 12/12/2017 21:18 Aplicación iniciada.
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 775
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 704
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 940
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 291
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 414
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 987
+LOG: SEVERE dic 12/12/2017 21:18 Exceso de peticiones de número aleatorio.
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 673
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 224
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 237
+LOG: INFO dic 12/12/2017 21:18 Se genero un nuevo numero aleatorio 74
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 937
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 737
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 833
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 673
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 183
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 930
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 210
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 277
+LOG: INFO dic 12/12/2017 21:18 Se genero un nuevo numero aleatorio 46
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 193
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 573
+LOG: WARNING dic 12/12/2017 21:18 Peligro el numero no esta entre 0 y 100: 747
+LOG: INFO dic 12/12/2017 21:20 Aplicación iniciada.
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 720
+LOG: INFO dic 12/12/2017 21:20 Se genero un nuevo numero aleatorio 39
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 599
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 316
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 425
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 948
+LOG: SEVERE dic 12/12/2017 21:20 Exceso de peticiones de número aleatorio.
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 120
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 236
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 502
+LOG: INFO dic 12/12/2017 21:20 Se genero un nuevo numero aleatorio 85
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 978
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 550
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 144
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 899
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 234
+LOG: INFO dic 12/12/2017 21:20 Se genero un nuevo numero aleatorio 75
+LOG: WARNING dic 12/12/2017 21:20 Peligro el numero no esta entre 0 y 100: 535
+LOG: INFO dic 12/12/2017 21:21 Aplicación iniciada.
+LOG: WARNING dic 12/12/2017 21:21 Peligro el numero no esta entre 0 y 100: 615
+LOG: WARNING dic 12/12/2017 21:21 Peligro el numero no esta entre 0 y 100: 987
+LOG: INFO dic 12/12/2017 21:21 Se genero un nuevo numero aleatorio 61
+LOG: WARNING dic 12/12/2017 21:21 Peligro el numero no esta entre 0 y 100: 681
+LOG: WARNING dic 12/12/2017 21:21 Peligro el numero no esta entre 0 y 100: 612
+LOG: WARNING dic 12/12/2017 21:21 Peligro el numero no esta entre 0 y 100: 827
+LOG: SEVERE dic 12/12/2017 21:21 Exceso de peticiones de número aleatorio.
+LOG: WARNING dic 12/12/2017 21:21 Peligro el numero no esta entre 0 y 100: 408
+LOG: WARNING dic 12/12/2017 21:21 Peligro el numero no esta entre 0 y 100: 718
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 454
+LOG: INFO dic 12/12/2017 21:22 Aplicación iniciada.
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 637
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 323
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 448
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 407
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 839
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 869
+LOG: SEVERE dic 12/12/2017 21:22 Exceso de peticiones de número aleatorio.
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 330
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 719
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 608
+LOG: INFO dic 12/12/2017 21:22 Se genero un nuevo numero aleatorio 40
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 395
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 892
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 113
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 813
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 705
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 643
+LOG: WARNING dic 12/12/2017 21:22 Peligro el numero no esta entre 0 y 100: 534
+LOG: INFO dic 12/12/2017 21:23 Se genero un nuevo numero aleatorio 83
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 723
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 616
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 380
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 357
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 320
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 180
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 114
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 750
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 866
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 994
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 241
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 362
+LOG: INFO dic 12/12/2017 21:23 Se genero un nuevo numero aleatorio 66
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 955
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 705
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 238
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 394
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 471
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 387
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 827
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 932
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 303
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 745
+LOG: INFO dic 12/12/2017 21:23 Se genero un nuevo numero aleatorio 31
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 179
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 581
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 121
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 708
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 932
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 976
+LOG: INFO dic 12/12/2017 21:23 Se genero un nuevo numero aleatorio 83
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 757
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 653
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 427
+LOG: WARNING dic 12/12/2017 21:23 Peligro el numero no esta entre 0 y 100: 205

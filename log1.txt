@@ -1,0 +1,248 @@
+dic 12, 2017 9:15:23 PM teoria19GenerarAleatorioLOG.Principal <init>
+INFORMACIÓN: Aplicación iniciada.
+dic 12, 2017 9:15:26 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 842
+dic 12, 2017 9:15:27 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 706
+dic 12, 2017 9:15:27 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 545
+dic 12, 2017 9:15:28 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 298
+dic 12, 2017 9:15:28 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 537
+dic 12, 2017 9:15:29 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 780
+dic 12, 2017 9:15:29 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+GRAVE: Exceso de peticiones de número aleatorio.
+dic 12, 2017 9:15:29 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 338
+dic 12, 2017 9:15:29 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 915
+dic 12, 2017 9:15:30 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 692
+dic 12, 2017 9:15:30 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 865
+dic 12, 2017 9:15:31 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 668
+dic 12, 2017 9:15:31 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 439
+dic 12, 2017 9:17:39 PM teoria19GenerarAleatorioLOG.Principal <init>
+INFORMACIÓN: Aplicación iniciada.
+dic 12, 2017 9:18:22 PM t00_.Principal <init>
+INFORMACIÓN: Aplicación iniciada.
+dic 12, 2017 9:18:25 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 775
+dic 12, 2017 9:18:26 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 704
+dic 12, 2017 9:18:27 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 940
+dic 12, 2017 9:18:27 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 291
+dic 12, 2017 9:18:28 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 414
+dic 12, 2017 9:18:28 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 987
+dic 12, 2017 9:18:28 PM t00_.Principal$2 actionPerformed
+GRAVE: Exceso de peticiones de número aleatorio.
+dic 12, 2017 9:18:29 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 673
+dic 12, 2017 9:18:29 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 224
+dic 12, 2017 9:18:30 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 237
+dic 12, 2017 9:18:30 PM t00_.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 74
+dic 12, 2017 9:18:30 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 937
+dic 12, 2017 9:18:31 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 737
+dic 12, 2017 9:18:31 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 833
+dic 12, 2017 9:18:32 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 673
+dic 12, 2017 9:18:32 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 183
+dic 12, 2017 9:18:33 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 930
+dic 12, 2017 9:18:33 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 210
+dic 12, 2017 9:18:34 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 277
+dic 12, 2017 9:18:34 PM t00_.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 46
+dic 12, 2017 9:18:34 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 193
+dic 12, 2017 9:18:35 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 573
+dic 12, 2017 9:18:35 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 747
+dic 12, 2017 9:20:04 PM t00_.Principal <init>
+INFORMACIÓN: Aplicación iniciada.
+dic 12, 2017 9:20:05 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 720
+dic 12, 2017 9:20:06 PM t00_.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 39
+dic 12, 2017 9:20:06 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 599
+dic 12, 2017 9:20:06 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 316
+dic 12, 2017 9:20:07 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 425
+dic 12, 2017 9:20:07 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 948
+dic 12, 2017 9:20:07 PM t00_.Principal$2 actionPerformed
+GRAVE: Exceso de peticiones de número aleatorio.
+dic 12, 2017 9:20:07 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 120
+dic 12, 2017 9:20:07 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 236
+dic 12, 2017 9:20:08 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 502
+dic 12, 2017 9:20:08 PM t00_.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 85
+dic 12, 2017 9:20:08 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 978
+dic 12, 2017 9:20:08 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 550
+dic 12, 2017 9:20:09 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 144
+dic 12, 2017 9:20:09 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 899
+dic 12, 2017 9:20:09 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 234
+dic 12, 2017 9:20:09 PM t00_.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 75
+dic 12, 2017 9:20:10 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 535
+dic 12, 2017 9:21:54 PM t00_.Principal <init>
+INFORMACIÓN: Aplicación iniciada.
+dic 12, 2017 9:21:56 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 615
+dic 12, 2017 9:21:57 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 987
+dic 12, 2017 9:21:58 PM t00_.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 61
+dic 12, 2017 9:21:58 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 681
+dic 12, 2017 9:21:58 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 612
+dic 12, 2017 9:21:59 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 827
+dic 12, 2017 9:21:59 PM t00_.Principal$2 actionPerformed
+GRAVE: Exceso de peticiones de número aleatorio.
+dic 12, 2017 9:21:59 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 408
+dic 12, 2017 9:21:59 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 718
+dic 12, 2017 9:22:00 PM t00_.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 454
+dic 12, 2017 9:22:41 PM teoria19GenerarAleatorioLOG.Principal <init>
+INFORMACIÓN: Aplicación iniciada.
+dic 12, 2017 9:22:42 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 637
+dic 12, 2017 9:22:43 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 323
+dic 12, 2017 9:22:43 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 448
+dic 12, 2017 9:22:44 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 407
+dic 12, 2017 9:22:44 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 839
+dic 12, 2017 9:22:44 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 869
+dic 12, 2017 9:22:44 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+GRAVE: Exceso de peticiones de número aleatorio.
+dic 12, 2017 9:22:44 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 330
+dic 12, 2017 9:22:45 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 719
+dic 12, 2017 9:22:45 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 608
+dic 12, 2017 9:22:45 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 40
+dic 12, 2017 9:22:45 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 395
+dic 12, 2017 9:22:46 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 892
+dic 12, 2017 9:22:46 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 113
+dic 12, 2017 9:22:46 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 813
+dic 12, 2017 9:22:46 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 705
+dic 12, 2017 9:22:46 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 643
+dic 12, 2017 9:22:47 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 534
+dic 12, 2017 9:23:02 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 83
+dic 12, 2017 9:23:02 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 723
+dic 12, 2017 9:23:02 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 616
+dic 12, 2017 9:23:03 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 380
+dic 12, 2017 9:23:03 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 357
+dic 12, 2017 9:23:03 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 320
+dic 12, 2017 9:23:03 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 180
+dic 12, 2017 9:23:04 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 114
+dic 12, 2017 9:23:04 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 750
+dic 12, 2017 9:23:04 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 866
+dic 12, 2017 9:23:04 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 994
+dic 12, 2017 9:23:05 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 241
+dic 12, 2017 9:23:05 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 362
+dic 12, 2017 9:23:05 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 66
+dic 12, 2017 9:23:05 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 955
+dic 12, 2017 9:23:05 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 705
+dic 12, 2017 9:23:06 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 238
+dic 12, 2017 9:23:06 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 394
+dic 12, 2017 9:23:06 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 471
+dic 12, 2017 9:23:06 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 387
+dic 12, 2017 9:23:07 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 827
+dic 12, 2017 9:23:07 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 932
+dic 12, 2017 9:23:07 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 303
+dic 12, 2017 9:23:07 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 745
+dic 12, 2017 9:23:07 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 31
+dic 12, 2017 9:23:08 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 179
+dic 12, 2017 9:23:08 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 581
+dic 12, 2017 9:23:08 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 121
+dic 12, 2017 9:23:08 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 708
+dic 12, 2017 9:23:09 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 932
+dic 12, 2017 9:23:09 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 976
+dic 12, 2017 9:23:09 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+INFORMACIÓN: Se genero un nuevo numero aleatorio 83
+dic 12, 2017 9:23:09 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 757
+dic 12, 2017 9:23:10 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 653
+dic 12, 2017 9:23:10 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 427
+dic 12, 2017 9:23:10 PM teoria19GenerarAleatorioLOG.Principal$2 actionPerformed
+ADVERTENCIA: Peligro el numero no esta entre 0 y 100: 205
