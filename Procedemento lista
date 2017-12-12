@@ -1,0 +1,15 @@
+Procedemento lista
+
+1.- Creamos defaultlistmodel e se lle agrega á lista:
+		DefaultListModel<String> model = new DefaultListModel<String>();
+		JList list = new JList();
+		list.setModel(model);
+2.- Creamos un Array de elementos 
+	private static 	ArrayList<String> listaNumeros = new ArrayList<String>();
+	
+3.- Creamos un método de adicionar elemento 
+		public DefaultListModel modelList(String element) {
+		DefaultListModel<String> model = new DefaultListModel<>();
+		model.addElement(element);
+		return model;
+	}
