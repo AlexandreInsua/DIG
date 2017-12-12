@@ -26,6 +26,7 @@ public class ListaAmigos {
 	private JFrame frame;
 	private JTextField textName;
 	private JList<String> lstFriends;
+	DefaultListModel<String> dlm ;
 
 	/**
 	 * Launch the application.
@@ -111,8 +112,9 @@ public class ListaAmigos {
 		gbc_scrollPane.gridy = 1;
 		frame.getContentPane().add(scrollPane, gbc_scrollPane);
 
+		dlm = new DefaultListModel<>(); 
 		lstFriends = new JList<String>();
-		lstFriends.setModel(new DefaultListModel<String>());
+		lstFriends.setModel(dlm);
 
 		scrollPane.setViewportView(lstFriends);
 
@@ -160,6 +162,7 @@ public class ListaAmigos {
 
 			}
 		});
+		
 		GridBagConstraints gbc_btnSaveOnDisk = new GridBagConstraints();
 		gbc_btnSaveOnDisk.gridx = 2;
 		gbc_btnSaveOnDisk.gridy = 2;
