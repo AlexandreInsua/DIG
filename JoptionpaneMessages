@@ -1,0 +1,11 @@
+Joptionpanels.showmessages
+
+showMessageDialog(Component comp, Object mensaje, String titulo, int tipoMensaje)
+showMessageDialog(Component comp, Object mensaje, String titulo, int tipoMensaje, Icon icon)
+
+
+JOptionPane.showMessageDialog(null, "Mensaje dentro de la ventana", "Mensaje en la barra de titulo", JOptionPane.PLAIN_MESSAGE);
+JOptionPane.showMessageDialog(null, "Mensaje dentro de la ventana", "Mensaje en la barra de titulo", JOptionPane.INFORMATION_MESSAGE);
+JOptionPane.showMessageDialog(null, "Mensaje dentro de la ventana", "Mensaje en la barra de titulo", JOptionPane.QUESTION_MESSAGE);
+JOptionPane.showMessageDialog(null, "Mensaje dentro de la ventana", "Mensaje en la barra de titulo", JOptionPane.ERROR_MESSAGE);
+JOptionPane.showMessageDialog(null, "Mensaje dentro de la ventana", "Mensaje en la barra de titulo", JOptionPane.WARNING_MESSAGE);
