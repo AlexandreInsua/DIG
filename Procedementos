@@ -1,0 +1,41 @@
+JCOMBOBOX
+
+1.- Crea un enumerado (t03)
+2.- Declárase un JCombox cbxOperation;
+3.- Establécese un dlm de string co enumerado
+	cbxOperation.setModel(new DefaultComboBoxModel<String>(new String[] { "Sumar", "Restar", "Multiplicar", "Dividir" }));
+4.- No listener vai un if coas opcións
+		if (cbxOperation.getSelectedIndex() == OPERATIONS.SUMAR.value) {...}
+
+
+JFILECHOOSER
+
+1.- vai instanciado no listener
+		JList listProductos = new JList();
+		listProductos.setModel(new DefaultListModel());
+
+JLIST
+A lista recibe un DLM 
+
+1.- no boton vai unha declaración do dlm 
+		DefaultListModel<Producto> dlm = (DefaultListModel<Producto> ) listaProductos.getModel();
+ 	e dlm.addElement()
+
+	
+COMUNICACIÓN ENTRE FORMULARIOS
+
+A principal instancia a secundaria e usa os métodos para mostrala
+		.setModal(true); - *opcional
+		.setVisible(true);
+
+a secundaria pode recibir algún parámetro da principal
+
+
+GRUPO DE BOTÓNS
+ButtonGroup buttonGroup  = new ButtonGroup();
+	buttonGroup.add(button1);
+	buttonGroup.add(button2);
+	buttonGroup.add(button3);
+
+RENDERS PERSONALIZADOS
+JComboBox implementa o combo, e un Renderder ComboRenderPersonalizado que implementa ListCellRenderer
