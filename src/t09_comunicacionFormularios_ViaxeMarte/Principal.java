@@ -1,19 +1,18 @@
-package t09_comucacionFormularios_ViaxeMarte;
+package t09_comunicacionFormularios_ViaxeMarte;
 
 import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-
-import java.awt.Font;
-import javax.swing.JTextField;
-import javax.swing.JCheckBox;
 import javax.swing.JRadioButton;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
 
 public class Principal {
 
@@ -121,6 +120,8 @@ public class Principal {
 			public void actionPerformed(ActionEvent e) {
 				boolean permitido = true;
 				boolean enfermo = false;
+								
+				Informe dialogo = new Informe(permitido);
 				if (chckbxAcaros.isSelected() ||
 					chckbxAlimentarias.isSelected() ||
 					chckbxMedicamentos.isSelected() ) {
@@ -133,8 +134,7 @@ public class Principal {
 					permitido = false;
 				}
 				
-								
-				Informe dialogo = new Informe(permitido);
+				
 				if(enfermo == true) {
 					dialogo.getLblNoPuedenViajar().setText("No puedes viajar con alergias");
 				}else {

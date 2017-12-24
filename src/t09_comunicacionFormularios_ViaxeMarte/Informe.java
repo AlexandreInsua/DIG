@@ -1,4 +1,4 @@
-package t09_comucacionFormularios_ViaxeMarte;
+package t09_comunicacionFormularios_ViaxeMarte;
 
 
 import java.awt.BorderLayout;
