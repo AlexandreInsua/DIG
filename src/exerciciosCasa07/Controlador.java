@@ -1,4 +1,4 @@
-package exercicioSwing07;
+package exerciciosCasa07;
 
 public class Controlador {
 
